@@ -15,11 +15,20 @@ Pewlett Hackard is offering retirement packages to employees that meet certain q
 - There are 72,458 employees total born before 1956 and currently employed that are eligible for retirement. This is out of 300,024 total employees. 24% of all employees are eligible for retirement. 
 
 ## Summary:
+After executing code and checking the results, Bobby has come up with inconsistencies and a question from each table created for his manager. A few questions and further research to help start explaining those questions are below:
+- What's going on with the salaries, specifically low salaries for veteran and older employees?
+  - Current employees eligible for retirement, born between 1952 and 1955 and hired before 1989 make an average of $52,961. 
+  -  Current employees, hired between 1989 and 2000 (birth date not relevant) make an average of $52,995
+  -  However, current employees hired after 1-1-2000 make an average of $54,205 even though they are younger and have less years experience. 
+  <img width="469" alt="Screen Shot 2022-06-13 at 12 06 44 AM" src="https://user-images.githubusercontent.com/103595718/173283552-6a059c1d-f200-4232-8ee3-742d618c930e.png">
+  
+  ###### (Code example for determining average salary based on hire date above)
+
+- Why are there only five active managers for nine departments, where are d001 (Marketing), d002 (Finance), d005 (Development), d006 (Quality Management) ?
+  - This question cannot be answered by our analysis. Have these managers recently retired? Do these employees hold multiple positions with the company, and the manager position is not listed as the most recent?
+- Why are some employees appearing twice in different departments?
+  - Many employees with the company have had more than one position since being hired. 140,270 employees have had more than one title within their time at the company. 3014 employees have had 3 titles within their time at the company. Noone has had more than 3 titles total. 
+
+<img width="526" alt="Screen Shot 2022-06-13 at 12 34 40 AM" src="https://user-images.githubusercontent.com/103595718/173286602-ce08a5cb-b5a2-4e12-b520-9be64e30fbff.png">
 
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
-After executing the code and checking the results, a few folks are are appearing twice. Maybe they moved departments? It's interesting how each list has given Bobby a question to ask his manager. So far, Bobby would like to know the following:
-
-What's going on with the salaries, low salaries for veteran and older employees?
-Why are there only five active managers for nine departments, where are d001 (Marketing), d002 (Finance), d005 (Development), d006 (Quality Management) ?
-Why are some employees appearing twice in different departments?
